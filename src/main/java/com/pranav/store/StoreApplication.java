@@ -17,6 +17,7 @@ public class StoreApplication implements WebMvcConfigurer {
 		SpringApplication.run(StoreApplication.class, args);
 	}
 	
+	
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
